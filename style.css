@@ -6,9 +6,6 @@ body {
 	word-wrap: break-word;
 	background-color: #fdfdfd;
 	color: #333;
-}
-
-main {
 	max-width: 800px;
 	margin: 2em auto;
 	padding: 0 20px;
@@ -100,6 +97,22 @@ pre {
 	overflow-x: auto;
 	white-space: pre-wrap;
 	word-wrap: break-word;
+}
+
+table {
+	width: 100%;
+	border-collapse: collapse;
+	margin-bottom: 1.5em;
+}
+
+th, td {
+	border: 1px solid #ccc;
+	padding: 0.5em;
+	text-align: left;
+}
+
+th {
+	background-color: #f0f8ff;
 }
 
 /* アコーディオン（選択肢の表示/非表示）スタイル */
